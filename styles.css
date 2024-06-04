@@ -1,0 +1,46 @@
+body {
+	background: black;
+	font-family: "Exo 2", sans-serif;
+}
+/* {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	margin-left: 4px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 90%;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+	margin-left: 8px;
+}
+.body-right {
+	align-content: center;
+}
+input {
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 2px; /* Opcional: para añadir un poco de espacio dentro del input */
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: gray;
+	padding: 10px 20px;
+}
